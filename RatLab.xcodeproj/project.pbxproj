@@ -16,6 +16,21 @@
 		9D820BD721514E7F00007FFD /* RatLabTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D820BD621514E7F00007FFD /* RatLabTests.m */; };
 		9D820BE221514E8000007FFD /* RatLabUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D820BE121514E8000007FFD /* RatLabUITests.m */; };
 		9D820BF121514F9800007FFD /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D820BF021514F9800007FFD /* MainViewController.m */; };
+		9D820BF42151519B00007FFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D820BF32151519B00007FFD /* Foundation.framework */; };
+		9D820BF6215151A500007FFD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D820BF5215151A500007FFD /* UIKit.framework */; };
+		9D820BF8215151B000007FFD /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D820BF7215151B000007FFD /* CFNetwork.framework */; };
+		9D820BFA215151D100007FFD /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D820BF9215151D100007FFD /* Security.framework */; };
+		9D820BFC215151EE00007FFD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D820BFB215151EE00007FFD /* CoreGraphics.framework */; };
+		9D820BFE215151FD00007FFD /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D820BFD215151FD00007FFD /* OpenGLES.framework */; };
+		9D820C012151520400007FFD /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D820BFF2151520400007FFD /* AddressBookUI.framework */; };
+		9D820C022151520400007FFD /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D820C002151520400007FFD /* AddressBook.framework */; };
+		9D820C042151521200007FFD /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D820C032151521200007FFD /* CoreFoundation.framework */; };
+		9D820C062151522000007FFD /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D820C052151522000007FFD /* CoreLocation.framework */; };
+		9D820C082151522A00007FFD /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D820C072151522A00007FFD /* AudioToolbox.framework */; };
+		9D820C0A2151523500007FFD /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D820C092151523500007FFD /* AudioUnit.framework */; };
+		9D820C0C2151524000007FFD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D820C0B2151524000007FFD /* AVFoundation.framework */; };
+		9D820C0E2151526700007FFD /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D820C0D2151526700007FFD /* CoreAudio.framework */; };
+		9D820C102151527200007FFD /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D820C0F2151527200007FFD /* MediaPlayer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +69,21 @@
 		9D820BE321514E8000007FFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D820BEF21514F9800007FFD /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		9D820BF021514F9800007FFD /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		9D820BF32151519B00007FFD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9D820BF5215151A500007FFD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9D820BF7215151B000007FFD /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		9D820BF9215151D100007FFD /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		9D820BFB215151EE00007FFD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9D820BFD215151FD00007FFD /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		9D820BFF2151520400007FFD /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		9D820C002151520400007FFD /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		9D820C032151521200007FFD /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		9D820C052151522000007FFD /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		9D820C072151522A00007FFD /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		9D820C092151523500007FFD /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		9D820C0B2151524000007FFD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		9D820C0D2151526700007FFD /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		9D820C0F2151527200007FFD /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +91,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D820C102151527200007FFD /* MediaPlayer.framework in Frameworks */,
+				9D820C0E2151526700007FFD /* CoreAudio.framework in Frameworks */,
+				9D820C0C2151524000007FFD /* AVFoundation.framework in Frameworks */,
+				9D820C0A2151523500007FFD /* AudioUnit.framework in Frameworks */,
+				9D820C082151522A00007FFD /* AudioToolbox.framework in Frameworks */,
+				9D820C062151522000007FFD /* CoreLocation.framework in Frameworks */,
+				9D820C042151521200007FFD /* CoreFoundation.framework in Frameworks */,
+				9D820C012151520400007FFD /* AddressBookUI.framework in Frameworks */,
+				9D820C022151520400007FFD /* AddressBook.framework in Frameworks */,
+				9D820BFE215151FD00007FFD /* OpenGLES.framework in Frameworks */,
+				9D820BFC215151EE00007FFD /* CoreGraphics.framework in Frameworks */,
+				9D820BFA215151D100007FFD /* Security.framework in Frameworks */,
+				9D820BF8215151B000007FFD /* CFNetwork.framework in Frameworks */,
+				9D820BF6215151A500007FFD /* UIKit.framework in Frameworks */,
+				9D820BF42151519B00007FFD /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +133,7 @@
 				9D820BD521514E7F00007FFD /* RatLabTests */,
 				9D820BE021514E8000007FFD /* RatLabUITests */,
 				9D820BBB21514E7D00007FFD /* Products */,
+				9D820BF22151519B00007FFD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,6 +181,28 @@
 				9D820BE321514E8000007FFD /* Info.plist */,
 			);
 			path = RatLabUITests;
+			sourceTree = "<group>";
+		};
+		9D820BF22151519B00007FFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D820C0F2151527200007FFD /* MediaPlayer.framework */,
+				9D820C0D2151526700007FFD /* CoreAudio.framework */,
+				9D820C0B2151524000007FFD /* AVFoundation.framework */,
+				9D820C092151523500007FFD /* AudioUnit.framework */,
+				9D820C072151522A00007FFD /* AudioToolbox.framework */,
+				9D820C052151522000007FFD /* CoreLocation.framework */,
+				9D820C032151521200007FFD /* CoreFoundation.framework */,
+				9D820C002151520400007FFD /* AddressBook.framework */,
+				9D820BFF2151520400007FFD /* AddressBookUI.framework */,
+				9D820BFD215151FD00007FFD /* OpenGLES.framework */,
+				9D820BFB215151EE00007FFD /* CoreGraphics.framework */,
+				9D820BF9215151D100007FFD /* Security.framework */,
+				9D820BF7215151B000007FFD /* CFNetwork.framework */,
+				9D820BF5215151A500007FFD /* UIKit.framework */,
+				9D820BF32151519B00007FFD /* Foundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
