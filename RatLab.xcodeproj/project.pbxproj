@@ -15,6 +15,7 @@
 		9D820BCD21514E7F00007FFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D820BCC21514E7F00007FFD /* main.m */; };
 		9D820BD721514E7F00007FFD /* RatLabTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D820BD621514E7F00007FFD /* RatLabTests.m */; };
 		9D820BE221514E8000007FFD /* RatLabUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D820BE121514E8000007FFD /* RatLabUITests.m */; };
+		9D820BF121514F9800007FFD /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D820BF021514F9800007FFD /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		9D820BDD21514E8000007FFD /* RatLabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RatLabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D820BE121514E8000007FFD /* RatLabUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RatLabUITests.m; sourceTree = "<group>"; };
 		9D820BE321514E8000007FFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D820BEF21514F9800007FFD /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		9D820BF021514F9800007FFD /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				9D820BC821514E7F00007FFD /* LaunchScreen.storyboard */,
 				9D820BCB21514E7F00007FFD /* Info.plist */,
 				9D820BCC21514E7F00007FFD /* main.m */,
+				9D820BEF21514F9800007FFD /* MainViewController.h */,
+				9D820BF021514F9800007FFD /* MainViewController.m */,
 			);
 			path = RatLab;
 			sourceTree = "<group>";
@@ -265,6 +270,7 @@
 				9D820BC221514E7D00007FFD /* ViewController.m in Sources */,
 				9D820BCD21514E7F00007FFD /* main.m in Sources */,
 				9D820BBF21514E7D00007FFD /* AppDelegate.m in Sources */,
+				9D820BF121514F9800007FFD /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

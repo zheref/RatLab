@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MainViewController.h
 //  RatLab
 //
 //  Created by Sergio Lozano García on 9/18/18.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UINavigationController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface MainViewController : UITableViewController
 
 @end
 
+NS_ASSUME_NONNULL_END
